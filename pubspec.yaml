@@ -11,6 +11,11 @@ dependencies:
     sdk: flutter
   flutter_localizations:
     sdk: flutter
+  # State management
+  mobx: 2.2.0
+  flutter_mobx: 2.0.6+5
+  # DI
+  get_it: 7.6.0
   # Network
   dio: 5.1.2
   # Navigation
@@ -22,6 +27,12 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: 2.0.0
+  build_runner: 2.4.5
+  # State management
+  mobx_codegen: 2.3.0
 
 flutter:
   uses-material-design: true
+
+flutter_intl:
+  enabled: true
