@@ -1,0 +1,27 @@
+name: flutter_mobx_overview
+description: An overview of the MobX architecture pattern in Flutter.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  # Network
+  dio: 5.1.2
+  # Navigation
+  go_router: 7.1.1
+  # Testing
+  mocktail: 0.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: 2.0.0
+
+flutter:
+  uses-material-design: true
