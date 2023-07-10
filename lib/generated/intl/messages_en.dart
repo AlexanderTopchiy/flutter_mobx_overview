@@ -22,8 +22,7 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
-        "networkError": MessageLookupByLibrary.simpleMessage(
-            "Error while fetching user list"),
+        "networkError": MessageLookupByLibrary.simpleMessage("Error while fetching user list"),
         "posts": MessageLookupByLibrary.simpleMessage("Posts"),
         "users": MessageLookupByLibrary.simpleMessage("Users")
       };
